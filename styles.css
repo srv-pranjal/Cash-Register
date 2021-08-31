@@ -20,7 +20,6 @@ p{
   top:5vh;
 
 }
-
 input {
   padding: 0.5rem;
   display: block;
@@ -34,15 +33,14 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-#btn-check {
+button {
   padding: 0.4rem 1rem;
   border-radius: 10px;
   border: 2px solid black;
   cursor: pointer;
 }
-caption{
-    margin: 1rem;
+#table-container{
+    margin-top: 1rem;
 }
 table,
 th,td{
@@ -51,15 +49,13 @@ th,td{
   padding: 0.5rem;
 }
 table{
-    table-layout: fixed;
     margin: 1rem auto;
     width: 90%;
 }
-th{
-    width: 90px;
-}
-td{
-    height: 40px;
+#cash-given, label[for='cash-given'], #btn-check, #table-container{
+    display: none;
 }
 
-
+#error-msg{
+    text-align: center;
+}

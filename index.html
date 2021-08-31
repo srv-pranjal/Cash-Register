@@ -19,32 +19,35 @@
       <label for="cash-given">Cash Given</label>
       <input id="cash-given" type="number" />
       <p id="error-msg"></p>
+      <button id='btn-next'>Next</button>
       <button id="btn-check">Check</button>
-      <table>
-        <caption>
-          Return Change
-        </caption>
-        <tr>
-          <th>Number of Notes</th>
-          <td class="output">0</td>
-          <td class="output">0</td>
-          <td class="output">0</td>
-          <td class="output">0</td>
-          <td class="output">0</td>
-          <td class="output">0</td>
-          <td class="output">0</td>
-        </tr>
-        <tr>
-          <th>Notes</th>
-          <td>2000</td>
-          <td>500</td>
-          <td>100</td>
-          <td>20</td>
-          <td>10</td>
-          <td>5</td>
-          <td>1</td>
-        </tr>
-      </table>
+      <div id="table-container">
+          <h3>
+            Return Change
+          </h3>
+          <table>
+            <tr>
+              <th>No. of Notes</th>
+              <td class="output"></td>
+              <td class="output"></td>
+              <td class="output"></td>
+              <td class="output"></td>
+              <td class="output"></td>
+              <td class="output"></td>
+              <td class="output"></td>
+            </tr>
+            <tr>
+              <th>Notes</th>
+              <td>2000</td>
+              <td>500</td>
+              <td>100</td>
+              <td>20</td>
+              <td>10</td>
+              <td>5</td>
+              <td>1</td>
+            </tr>
+          </table>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
