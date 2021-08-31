@@ -10,12 +10,19 @@
   <body>
     <div class="container">
       <h1>Cash Register</h1>
+      <p>
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </p>
       <label for="bill-amt">Bill Amount</label>
       <input id="bill-amt" type="number" />
       <label for="cash-given">Cash Given</label>
       <input id="cash-given" type="number" />
       <button id="btn-check">Check</button>
       <table>
+        <caption>
+          Return Change
+        </caption>
         <tr>
           <th>Number of Notes</th>
           <td>0</td>

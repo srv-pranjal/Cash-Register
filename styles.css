@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1{
+    padding: 1rem 0;
+}
+p{
+    text-align: start;
+    margin: 1rem;
+}
+.container {
+  max-width: 500px;
+  padding-bottom: 0.5rem;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: turquoise;
+  position: relative;
+  top:5vh;
+
+}
+
+input {
+  padding: 0.5rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  width: 80%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#btn-check {
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+caption{
+    margin: 1rem;
+}
+table,
+th,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+table{
+    table-layout: fixed;
+    margin: 1rem auto;
+    width: 90%;
+}
+th{
+    width: 90px;
+}
+td{
+    height: 40px;
+}
+
+
