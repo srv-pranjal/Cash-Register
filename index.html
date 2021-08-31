@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Cash Register</h1>
+    <div class="container">
+      <h1>Cash Register</h1>
+      <label for="bill-amt">Bill Amount</label>
+      <input id="bill-amt" type="number" />
+      <label for="cash-given">Cash Given</label>
+      <input id="cash-given" type="number" />
+      <button id="btn-check">Check</button>
+      <table>
+        <tr>
+          <th>Number of Notes</th>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>
